@@ -73,7 +73,7 @@ pm2 logs
 <img width="600" alt="Assign PIC" src="https://github.com/user-attachments/assets/51d33717-fdc2-40a2-9923-8cef646e3e96" />
 
 📍 **3. Transition Update by Emoji Reaction**  
-<img width="780" alt="Transition Update" src="https://github.com/user-attachments/assets/bcc0e668-574d-4c2d-b980-23a24a96e652" />
+<img width="780" alt="Transition Update" src="https://github.com/user-attachments/assets/c87444fa-f10e-4c6c-9f20-ab5a94d9da6b" />
 
 
 
