@@ -26,12 +26,30 @@ slack-wf-automation-backend
 ## Slack
 
 - private or public channel
-- WF
+- WF Builder (WF,Assign)
 - slack app(bot) and  config
 
 ## Bolt app (js)
 
 - node js based
+
+## Module install cli (Ubuntu)
+```
+sudo apt update
+sudo apt install -y nodejs npm
+node -v
+npm -v
+sudo npm install pm2@latest -g
+pm2 -v
+pm2 start app.js --name issue-bot
+pm2 status
+pm2 stop issue-bot
+pm2 logs
+```
+## Vault
+- Single-node Vault server (Standalone mode) without clustering or HA
+- Docker based
+- approle, transit, policy resource needed only
 
 ## source tree
 
