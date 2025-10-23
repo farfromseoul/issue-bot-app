@@ -67,13 +67,13 @@ pm2 logs
 
 # Concept
 📍 **1. Create Jira Issue**  
-<img width="780" height="380" alt="Create Jira Issue" src="https://github.com/user-attachments/assets/38acc82b-7e95-40ed-ba74-80f1f277bb40" />
+<img width="600" height="380" alt="Create Jira Issue" src="https://github.com/user-attachments/assets/38acc82b-7e95-40ed-ba74-80f1f277bb40" />
 
 📍 **2. Assign PIC by Emoji Reaction**  
-<img width="600" alt="Assign PIC" src="https://github.com/user-attachments/assets/51d33717-fdc2-40a2-9923-8cef646e3e96" />
+<img width="600" height="380" alt="Assign PIC" src="https://github.com/user-attachments/assets/51d33717-fdc2-40a2-9923-8cef646e3e96" />
 
 📍 **3. Transition Update by Emoji Reaction**  
-<img width="780" alt="Transition Update" src="https://github.com/user-attachments/assets/c87444fa-f10e-4c6c-9f20-ab5a94d9da6b" />
+<img width="600" height="380" alt="Transition Update" src="https://github.com/user-attachments/assets/c87444fa-f10e-4c6c-9f20-ab5a94d9da6b" />
 
 
 
