@@ -44,17 +44,18 @@ slack-wf-automation-backend
 ├── userMap.json
 └── util.js
 
+# So What this can do?
+- 업무 요청을 자동으로 issue로 등록하고, 진행 상태를 변경하고, 관리해주는 ai 비서를 만들어보자.
+
 # Concept
 📌 1. Create Jira Issue
-![issue screen shot](https://private-user-images.githubusercontent.com/96724602/504509477-31c9ee26-ce4a-4adb-b565-cdd9e2416ac1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjExOTAzNzYsIm5iZiI6MTc2MTE5MDA3NiwicGF0aCI6Ii85NjcyNDYwMi81MDQ1MDk0NzctMzFjOWVlMjYtY2U0YS00YWRiLWI1NjUtY2RkOWUyNDE2YWMxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEwMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMDIzVDAzMjc1NlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTA0Zjg5ZjRiZjJlYzMzNjJlZDZlYzI2OTdmNjU1MzBjYjg1NzIxMjk4MWNhODkxMmMyNTU0NzRjNmIyNjllOGImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.LFgZK4w2hBfBrw5i-stDCVnDkRxQxm33yruP81mZWA0)
+<img width="780" height="380" alt="Image" src="https://github.com/user-attachments/assets/38acc82b-7e95-40ed-ba74-80f1f277bb40" />
 📌 2. Assgin PIC by Emoji Reaction 
-
-
+<img width="447" height="396" alt="Image" src="https://github.com/user-attachments/assets/51d33717-fdc2-40a2-9923-8cef646e3e96" />
 📌 3. Transition Update Emoji Reaction 
+<img width="813" height="400" alt="Image" src="https://github.com/user-attachments/assets/bcc0e668-574d-4c2d-b980-23a24a96e652" />
 
-# So What this can do?
 
-- 업무 요청을 자동으로 issue로 등록하고, 진행 상태를 변경하고, 관리해주는 ai 비서를 만들어보자.
 
 
 ## 🎥 Demo - Slack Issue Bot
