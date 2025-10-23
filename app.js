@@ -1,27 +1,28 @@
 require('dotenv').config();
 const { App, LogLevel } = require('@slack/bolt');
+const { loadDecryptedSecrets } = require('./vaultClient');
 const {
   handleAppMention,
   handleReactionAdded,
   handleReactionRemoved
 } = require('./handler');
-const SLACK_APP_TOKEN = process.env.ENC_SLACK_APP_TOKEN;
-const SLACK_BOT_TOKEN = process.env.ENC_SLACK_BOT_TOKEN;
-const SLACK_SIGNING_SECRET = process.env.ENC_SLACK_SIGNING_SECRET;
 
-if (!SLACK_APP_TOKEN || !SLACK_BOT_TOKEN) {
-  console.error('❌ Missing Slack tokens in .env');
-  process.exit(1);
-}
+//if (!SLACK_APP_TOKEN || !SLACK_BOT_TOKEN) {
+//  console.error('❌ Missing Slack tokens in .env');
+//  process.exit(1);
+//}
 
 
 // Slack App 실행
 (async () => {
+await loadDecryptedSecrets();
+
+console.log(process.env.SLACK_APP_TOKEN)
 const app = new App({
-  appToken: SLACK_APP_TOKEN,
-  token: SLACK_BOT_TOKEN,
+  appToken: process.env.SLACK_APP_TOKEN,
+  token: process.env.SLACK_BOT_TOKEN,
   socketMode: true,
-  signingSecret: SLACK_SIGNING_SECRET,
+  signingSecret: process.env.SLACK_SIGNING_SECRET,
   logLevel: LogLevel[process.env.LOG_LEVEL] ?? LogLevel.INFO
 });
 
