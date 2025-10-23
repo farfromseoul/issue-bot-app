@@ -45,7 +45,9 @@ slack-wf-automation-backend
 └── util.js
 
 # Concept
-[![GitHub issue](https://img.shields.io/github/issues-detail/farfromseoul/issue-bot-app/1)](https://github.com/farfromseoul/issue-bot-app/issues/1)
+📌
+https://github.com/farfromseoul/issue-bot-app/issues/1
+
 
 # So What this can do?
 
