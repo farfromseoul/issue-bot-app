@@ -22,7 +22,7 @@ console.log('[reaction_added] emoji =',reaction);
     //todo: 'TO DO',
     wip: 'In Progress',
     resolved: 'IN REVIEW',
-    'done-': 'DONE'
+    'done_': 'DONE'
   };
   return map[reaction];
 }

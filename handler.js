@@ -59,7 +59,7 @@ async function handleReactionAdded({ event, client }) {
   }
 
   // 상태 변경 처리
-  if (['wip', 'resolved', 'done-'].includes(reaction)) {
+  if (['wip', 'resolved', 'done_'].includes(reaction)) {
     const status = getStatusFromEmoji(reaction);
     try {
       await updateJiraStatus(issueKey, status);
@@ -110,7 +110,7 @@ async function handleReactionRemoved({ event, client }) {
 
   // 이전 상태로 되돌리는 맵 정의
   const previousStatusMap = {
-    'done-': 'In Review',
+    'done_': 'In Review',
     resolved: 'In Progress',
     wip: 'To Do'
   };
