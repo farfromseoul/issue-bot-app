@@ -58,4 +58,4 @@ slack-wf-automation-backend
 
 
 ## 🎥 Demo - Slack Issue Bot
-https://github.com/user-attachments/assets/2f98c858-bb0b-4559-b1de-296d32a55d69
+https://github.com/user-attachments/assets/fa3fcf38-bb9e-4f78-b96c-d59e1f0ac3ed
