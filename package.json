@@ -1,0 +1,16 @@
+{
+  "name": "issue-bot",
+  "version": "1.0.0",
+  "description": "Slack Bolt (Socket Mode) + Jira Cloud issue bot (plain env → later Vault Transit)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.12.3",
+    "axios": "^1.6.8",
+    "dotenv": "^16.3.1",
+    "node-vault": "^0.9.16"
+  }
+}
+
