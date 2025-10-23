@@ -45,8 +45,7 @@ slack-wf-automation-backend
 └── util.js
 
 # Concept
-
-![arc.svg](attachment:859443c2-8a95-47ce-a384-06a132d694b1:arc.svg)
+[![GitHub issue](https://img.shields.io/github/issues-detail/farfromseoul/issue-bot-app/1)](https://github.com/farfromseoul/issue-bot-app/issues/1)
 
 # So What this can do?
 
