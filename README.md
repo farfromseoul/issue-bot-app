@@ -53,3 +53,8 @@ slack-wf-automation-backend
 
 - 업무 요청을 자동으로 issue로 등록하고, 진행 상태를 변경하고, 관리해주는 ai 비서를 만들어보자.
 
+
+## 🎥 Demo - Slack Issue Bot
+<video controls width="720">
+  <source src="https://github.com/user-attachments/assets/2f98c858-bb0b-4559-b1de-296d32a55d69" type="video/mp4">
+</video>
